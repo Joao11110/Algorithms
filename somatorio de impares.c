@@ -9,7 +9,7 @@ int main(){
 	scanf("%i", &n);		
 	int v[n];
 	for(i = 0; i < n; i++){
-		printf("Digite o %iº valor: ", i+1);
+		printf("Digite o %iÂº valor: ", i+1);
 		scanf("%i", &v[i]);	
 	}
 	for(i = 0; i < n; i++){
@@ -17,6 +17,6 @@ int main(){
 			s = s + v[i];
 		}
 	}
-	printf("Somatório de impares: %i", s);
+	printf("SomatÃ³rio de impares: %i", s);
 	return(0);
 }
