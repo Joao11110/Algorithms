@@ -8,12 +8,12 @@ int main(){
 	printf("|----------------------------------|\n");
 	printf("| Calculadora Simples              |\n");
 	printf("|----------------------------------|\n");
-	printf("|1 - MultiplicaÁ„o                 |\n");
-	printf("|2 - SubtraÁ„o                     |\n");
-	printf("|3 - Divis„o                       |\n");
+	printf("|1 - Multiplica√ß√£o                 |\n");
+	printf("|2 - Subtra√ß√£o                     |\n");
+	printf("|3 - Divis√£o                       |\n");
 	printf("|4 - Soma                          |\n");
 	printf("|----------------------------------|\n");
-	printf("Digite um valor da tabela para comeÁar a calcular:\n");
+	printf("Digite um valor da tabela para come√ßar a calcular:\n");
 	scanf("%f", &op);
 	printf("Digite o primeiro valor:\n");
 	scanf("%f", &n1);
@@ -21,24 +21,24 @@ int main(){
 	scanf("%f", &n2);
 	switch(op){
 		case 1:
-			printf("MultiplicaÁ„o: %.1f", n1*n2);
+			printf("Multiplica√ß√£o: %.1f", n1*n2);
 			break;
 		case 2:
-			printf("SubtraÁ„o: %.1f", n1-n2);
+			printf("Subtra√ß√£o: %.1f", n1-n2);
 			break;
 		case 3:
 			if(n2 != 0){	
-				printf("Divis„o: %.1f", n1/n2);
+				printf("Divis√£o: %.1f", n1/n2);
 		    }
 			else{
-				printf("N„o È possÌvel dividir por 0.");
+				printf("N√£o √© poss√≠vel dividir por 0.");
 			}
 			break;
 		case 4:
 		printf("Soma: %.1f", n1+n2);
 			break;
 		default:
-			printf("OpÁ„o inv·lida.");		
+			printf("Op√ß√£o inv√°lida.");		
 	}
 	return(0);
 }
